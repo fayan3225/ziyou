@@ -12,20 +12,26 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇦🇹 AT 02 - xiaohe
-  type: vless
-  server: 138.124.90.177
-  port: 10443
-  uuid: 3a0e4040-67cc-43e0-a9fb-98e15ddb0526
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇦🇹 AT 03 - xiaohe
   type: ss
   server: 82.110.60.9
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 🇦🇹 AT 03 - xiaohe
+  type: vless
+  server: 138.124.90.249
+  port: 7445
+  uuid: 76ad3e79-fb8c-4ee2-a8f1-491573daa663
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
 - name: 🇦🇹 AT 04 - xiaohe
   type: vless
   server: 138.124.90.177
