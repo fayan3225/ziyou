@@ -45,7 +45,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xmfhlpy.com
+  servername: ''
 proxy-groups:
 - name: PROXIES
   type: select
